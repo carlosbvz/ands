@@ -1007,6 +1007,7 @@ const AllRoutes = [
                     "Longitud": "-84.2321810"
                 }
             ]
-        ]
+        ],
+        icon: 'https://pixelhouse.bg/newpixel/wp-content/uploads/2017/11/Dot-small.png'
     }
 ]

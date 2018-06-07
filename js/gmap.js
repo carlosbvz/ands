@@ -31,7 +31,7 @@ function addPinsToMap(map) {
                         lng: Number(point.Longitud)
                     },
                     icon: {
-                        url: 'https://pixelhouse.bg/newpixel/wp-content/uploads/2017/11/Dot-small.png', // url
+                        url: routesData.icon,
                         scaledSize: new google.maps.Size(10, 10), // scaled size
                         origin: new google.maps.Point(0,0), // origin
                         anchor: new google.maps.Point(0, 0) // anchor
@@ -40,9 +40,7 @@ function addPinsToMap(map) {
                   });
                   map.pins.push(marker);
             })
-            
         })
     })
-    
 }
 

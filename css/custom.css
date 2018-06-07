@@ -1,20 +1,25 @@
-
 /* Gallery */
 .gallery {
-    padding: 60px 0px;
+  padding: 60px 0px;
 }
 .block-center {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .b-link-stripe .b-wrapper.b-wrapper-center {
-    left: 25%;
-    height: 90%;
-    top: 3px;
-    border-radius: 5px;
+  left: 25%;
+  height: 90%;
+  top: 3px;
+  border-radius: 5px;
 }
 .b-from-left {
-    top: 17%;
+  top: 17%;
 }
 .gallery-theme-white {
-    background-color: white;
+  background-color: white;
+}
+
+/* Map */
+#map {
+  height: 500px;
+  width: 100%;
 }

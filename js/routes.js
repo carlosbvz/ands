@@ -1,5 +1,6 @@
 const AllRoutes = [
     {
+        id: 1,
         name: 'Guacima - Zona Franca',
         routes: [
             // Route 1-2
@@ -1009,5 +1010,9 @@ const AllRoutes = [
             ]
         ],
         icon: 'https://pixelhouse.bg/newpixel/wp-content/uploads/2017/11/Dot-small.png'
+    },
+    {
+        id: 2,
+        name: 'New route',
     }
 ]
